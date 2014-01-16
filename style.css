@@ -1,0 +1,42 @@
+.container {
+    height: 126px;
+    overflow: hidden;
+}
+.icon {
+    float: left;
+    width: 126px;
+    height: 126px;
+}
+.icon span {
+    position: relative;
+    left: 30%;
+    top: 40px;
+}
+.icon.ie {
+    float: right;
+}
+.ie {
+    color: #008bb8;
+}
+.chrome1 {
+    color: #77D49B;
+}
+.chrome2 {
+    color: #FF1C1C;
+}
+.chrome3 {
+    color: #FFD500;
+}
+
+.firefox {
+   color: #ffa500;
+}
+.opera {
+   color: #ed3c3c;
+}
+.safari {
+    color: #646464;
+}
+.yandex {
+    color: #FF1C1C;
+}
