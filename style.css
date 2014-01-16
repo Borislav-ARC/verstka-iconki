@@ -9,14 +9,24 @@
 }
 .icon span {
     position: relative;
-    left: 30%;
-    top: 40px;
+    height: 18px;
+    display: inline-block;
+    top: 50%;
+    margin-top: -9px;
+    float: left;
 }
 .icon.ie {
     float: right;
-}
-.ie {
     color: #008bb8;
+}
+.icon.ie img {
+    float: right;
+}
+.icon.ie span{
+    float: right;
+    margin-top: -19px;
+    width: 90px;
+    height: 38px;
 }
 .chrome1 {
     color: #77D49B;
@@ -39,4 +49,9 @@
 }
 .yandex {
     color: #FF1C1C;
+}
+.icon img {
+    top: -20px;
+    position: relative;
+    float: left;
 }
